@@ -35,10 +35,9 @@ select,
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #a59898;
     border-radius: 4px;
     box-sizing: border-box;
-    transition: border-color 0.3s;
 }
 
 input[type="text"]:focus,

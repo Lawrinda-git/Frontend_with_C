@@ -10,11 +10,14 @@
     
     <form method="GET" action="/cgi-bin/main.cgi">
         <span style='font-size:50px;'>&#10004;&#128214;</span>
-        <h1>Student Marks Input Form</h1>
+        <h1>HERTEACHING COMPLEX</h1>
         <hr>
+        <h3>Welcome to the Student Marks Input Form!</h3>
+        <p><i>Please fill out the form below to submit your marks for each subject. Your information helps us track your progress.</i></p>
+        
 
         <p>
-            <label for="studentName">Student Name:</label><br>
+            <label for="studentName">Student Name<i><span style="color: rgb(145, 145, 145);">(Surname first)</span></i>:</label><br>
             <input type="text" id="studentName" name="studentName" required>
         </p>
 
@@ -83,6 +86,7 @@
         </p>
 
         <input type="submit" value="Submit" style="font-size: 16px; padding: 10px;">
+        <input type="reset" value="Reset" style="font-size: 16px; padding: 10px;">
     </form>
 </body>
 </html>
