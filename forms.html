@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formsstyle.css">
+    <title>Student Marks Input</title>
+</head>
+<body>
+    
+    <form method="GET" action="/cgi-bin/main.cgi">
+        <span style='font-size:50px;'>&#10004;&#128214;</span>
+        <h1>Student Marks Input Form</h1>
+        <hr>
+
+        <p>
+            <label for="studentName">Student Name:</label><br>
+            <input type="text" id="studentName" name="studentName" required>
+        </p>
+
+        <p>
+            <label for="studentNumber">Student Number:</label><br>
+            <input type="text" id="studentNumber" name="studentNumber" required>
+        </p>
+        <p>
+            <label for="programme">Programme of Study:</label><br>
+            <input type="text" id="programme" name="programme" required placeholder="e.g. Computer Science">
+        </p>
+
+        <p>
+            <label for="year">Year of Study:</label><br>
+            <select id="year" name="year" required>
+                <option value="">--Select--</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="semester">Semester:</label><br>
+            <select id="semester" name="semester" required>
+                <option value="">--Select--</option>
+                <option value="1">1st Semester</option>
+                <option value="2">2nd Semester</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="course1">Course Name for Subject 1:</label><br>
+            <input type="text" id="course1" name="course1" required placeholder="e.g. Mathematics">
+            <label for="subject1">Marks:</label><br>
+            <input type="number" id="subject1" name="sub1" min="0" max="100" required>
+        </p>
+
+        <p>
+            <label for="course2">Course Name for Subject 2:</label><br>
+            <input type="text" id="course2" name="course2" required placeholder="e.g. Physics">
+            <label for="subject2">Marks:</label><br>
+            <input type="number" id="subject2" name="sub2" min="0" max="100" required>
+        </p>
+
+        <p>
+            <label for="course3">Course Name for Subject 3:</label><br>
+            <input type="text" id="course3" name="course3" required placeholder="e.g. Chemistry">
+            <label for="subject3">Marks:</label><br>
+            <input type="number" id="subject3" name="sub3" min="0" max="100" required>
+        </p>
+
+        <p>
+            <label for="course4">Course Name for Subject 4:</label><br>
+            <input type="text" id="course4" name="course4" required placeholder="e.g. Biology">
+            <label for="subject4">Marks:</label><br>
+            <input type="number" id="subject4" name="sub4" min="0" max="100" required>
+        </p>
+
+        <p>
+            <label for="course5">Course Name for Subject 5:</label><br>
+            <input type="text" id="course5" name="course5" required placeholder="e.g. Computer Science">
+            <label for="subject5">Marks:</label><br>
+            <input type="number" id="subject5" name="sub5" min="0" max="100" required>
+        </p>
+
+        <input type="submit" value="Submit" style="font-size: 16px; padding: 10px;">
+    </form>
+</body>
+</html>
