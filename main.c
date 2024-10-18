@@ -71,7 +71,7 @@ void print_result(const char *name, const char *student_number, const char *prog
     printf("Content-Type: text/html\n\n");
     printf("<html><head><title>Results</title>");
     printf("<style>");
-    printf("body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }");
+    printf("body { font-family: Arial, sans-serif; background-color: #dae1e1; padding: 20px; }");
     printf("h1 { color: #333; text-align: center; }");
     printf(".result { background-color: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); max-width: 600px; margin: auto; }");
     printf("table { width: 100%%; border-collapse: collapse; margin-top: 20px; }");
